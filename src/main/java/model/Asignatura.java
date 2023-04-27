@@ -66,4 +66,11 @@ public class Asignatura implements Serializable {
 		return asignaturaspordocente;
 	}
 
+	@Override
+	public String toString() {
+		return denominacion;
+	}
+	
+	
+
 }

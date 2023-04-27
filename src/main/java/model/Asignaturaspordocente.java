@@ -55,4 +55,13 @@ public class Asignaturaspordocente implements Serializable {
 		this.docente = docente;
 	}
 
+	public Asignaturaspordocente(int id, Asignatura asignatura, Docente docente) {
+		super();
+		this.id = id;
+		this.asignatura = asignatura;
+		this.docente = docente;
+	}
+	
+	
+
 }
